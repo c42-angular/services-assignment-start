@@ -24,4 +24,8 @@ import { CounterListenerService } from "app/shared/counter-listener.service";
   providers: [CounterInjectedService, UserService, CounterListenerService],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+  constructor(private counterListenerService: CounterListenerService){
+
+  }
+}
