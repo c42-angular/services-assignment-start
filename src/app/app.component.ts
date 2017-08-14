@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
-import { UserService } from 'app/shared/user.service';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
-  providers: [UserService]
+  providers: []
 })
 export class AppComponent {
   // activeUsers = ['Max', 'Anna'];
